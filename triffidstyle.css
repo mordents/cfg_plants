@@ -1,0 +1,109 @@
+p{
+    display:flex;
+    font-family: 'Open Sans', sans-serif;   
+    align-items: center;
+    font-size: small;
+    color:black;
+    font-weight: bolder;
+    flex-direction: column;
+}
+
+
+
+
+
+.Header1
+{
+    display: flex;
+    background-color: rgb(12, 77, 68);
+    align-items: center;
+    color:rgb(85, 154, 147);
+    font-size: xx-large;
+    flex-direction: column;
+    background-image: url("botanics3.png");
+    
+    font-family: 'Open Sans', sans-serif;
+    transition: background-color 2s ease-out 50ms;
+}
+/*.Header1:hover {
+    rgb(101, 147, 134);
+     background-color: rgb(12, 77, 68);
+    object-fit:inherit
+}*/
+  
+.bodybackground
+{ 
+    display: flex;
+    align-items: center;
+    position: relative; 
+    flex-direction: column;
+    background: rgb(92, 159, 137);
+    
+    
+    height:1000px;
+    width: 1200px;
+    overflow: hidden;
+    
+    
+}
+
+
+
+.navcontainer{
+    list-style-type: none;
+   
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(103, 200, 185);
+    transition: background-color 2s ease-out 50ms;
+}
+
+.navcontainer:hover {
+    background-color: #ffffff;
+  }
+
+
+  
+.navbar {                     /*nav bar fonts*/
+    float: left;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(85, 154, 147);
+    
+    text-decoration: none;
+    font-size: 5px;
+    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+    font-weight: 500;
+    
+}
+.navbar a {
+    float: inline-start;
+    padding: 12px;
+    color: rgb(101, 147, 134);
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: start; /* If you want the text to be centered */
+  }
+
+
+
+
+
+
+
+/*background-color: rgb(56, 189, 167);*/
+
+
+body
+{
+    
+    
+    background-color: rgb(12, 51, 42);
+   
+  
+}
+
+/*rgb(80, 120, 108);
