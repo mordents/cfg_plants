@@ -67,19 +67,6 @@ p{
 
 
   
-.navbar {                     /*nav bar fonts*/
-    float: left;
-    padding: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(85, 154, 147);
-    
-    text-decoration: none;
-    font-size: 5px;
-    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: center; /* If you want the text to be centered */
-    font-weight: 500;
-    
-}
 
 
 
@@ -88,8 +75,9 @@ p{
     float: inline-start;
     padding: 12px;
     color: rgb(101, 147, 134);
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     width: 25%; 
 }
 
