@@ -17,7 +17,9 @@ p{
     display: flex;
     background-color: rgb(12, 77, 68);
     align-items: center;
+    justify-content: center;
     color:rgb(85, 154, 147);
+    text-shadow: 2px 2px 5px black;
     font-size: xx-large;
     flex-direction: column;
     background-image: url("botanics3.png");
@@ -38,10 +40,10 @@ p{
     position: relative; 
     flex-direction: column;
     background: rgb(92, 159, 137);
-    
+    padding: 0;
     
     height:1000px;
-    width: 1200px;
+    width: 1200.5px;
     overflow: hidden;
     
     
@@ -78,15 +80,37 @@ p{
     font-weight: 500;
     
 }
+
+
+
+ 
 .navbar a {
     float: inline-start;
     padding: 12px;
     color: rgb(101, 147, 134);
     text-decoration: none;
     font-size: 17px;
-    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: start; /* If you want the text to be centered */
-  }
+    width: 25%; 
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(120, 255, 201);
+    color: white;
+    text-align: center;
+ }
+
+
+
+
+
+
+
+
+
 
 
 
