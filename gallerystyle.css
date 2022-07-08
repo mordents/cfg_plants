@@ -1,0 +1,15 @@
+.header
+{
+    padding: 60px;
+    display: flex;
+    color: blueviolet;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.body
+{
+    background-color: rgba(169, 99, 183, 0.217);
+}

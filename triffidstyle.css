@@ -1,4 +1,4 @@
-p{
+p{   /*paragraph css*/
     display:flex;
     font-family: 'Open Sans', sans-serif;   
     align-items: center;
@@ -9,10 +9,7 @@ p{
 }
 
 
-
-
-
-.Header1
+.Header1        /* Title header css*/
 {
     display: flex;
     background-color: rgb(12, 77, 68);
@@ -23,15 +20,10 @@ p{
     font-size: xx-large;
     flex-direction: column;
     background-image: url("botanics3.png");
-    
     font-family: 'Open Sans', sans-serif;
     transition: background-color 2s ease-out 50ms;
 }
-/*.Header1:hover {
-    rgb(101, 147, 134);
-     background-color: rgb(12, 77, 68);
-    object-fit:inherit
-}*/
+
   
 .bodybackground
 { 
@@ -51,37 +43,83 @@ p{
 
 
 
-.navcontainer{
+.navcontainer{              /*navigation bar background*/
     list-style-type: none;
    
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(103, 200, 185);
-    transition: background-color 2s ease-out 50ms;
+    background-color: rgb(255, 255, 255);
 }
 
-.navcontainer:hover {
-    background-color: #ffffff;
-  }
 
+.navbar a {                /*navlinks properties*/
 
-  
-
-
-
- 
-.navbar a {
     float: inline-start;
     padding: 12px;
     color: rgb(101, 147, 134);
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     font-size: 20px;
-    width: 25%; 
+    width: 10%; 
 }
+/* Dropdown Button */
+.dropbtn {
+    background-color:rgb(255, 255, 255) ;
+    color: rgb(101, 147, 134);
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    font-family: 'Open Sans', sans-serif; 
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(85, 154, 147);
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    min-width:65%;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  
 
-.footer {
+
+
+
+
+
+
+  body
+  {
+      background-color: rgb(12, 51, 42); 
+  }
+
+.footer {               /*footer* - was thinking of adding social media links*/
     position: fixed;
     left: 0;
     bottom: 0;
@@ -98,24 +136,3 @@ p{
 
 
 
-
-
-
-
-
-
-
-
-/*background-color: rgb(56, 189, 167);*/
-
-
-body
-{
-    
-    
-    background-color: rgb(12, 51, 42);
-   
-  
-}
-
-/*rgb(80, 120, 108);
